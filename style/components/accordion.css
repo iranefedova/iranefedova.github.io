@@ -1,0 +1,13 @@
+.label-accordion {
+    border: 1px solid #dadfe6;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.label-accordion:hover {
+    background: #fafafa;
+}
+
+.graphic {
+    display: none;
+}

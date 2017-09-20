@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Бюджет Волгоградской области</title>
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href="/style/main.css" rel="stylesheet" />
+    <link href="/style/media.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class="content">
+            <div class="header">
+                <div class="container">
+                    <div class="flex flex-between">
+                        <div class="flex flex-vertical">
+                            <div class="logo">
+                                <a href="/" class="picture-link"><img src="/images/gerb.png" /></a>
+                            </div>
+                            <div>
+                                <h3 class="title">Бюджет</h3>
+                                <h3 class="title">Волгоградской области</h3>
+                            </div>
+                        </div>
+                        <div class="flex flex-vertical">
+                            <div class="search flex flex-vertical">
+                                <form class="search-form flex flex-between">
+                                    <input placeholder="Поиск..." type="text" name="search_word" />
+                                    <input type="submit" value=" " />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <link rel="stylesheet" href="/style/components/menu.css">
+            <!-- стили меню -->
+
+            <div class="menu-line">
+                <div class="container flex flex-between">
+                    <nav class="marg-r">
+                        <ul class="topmenu">
+                            <li><a>Финансовый паспорт</a>
+                                <ul class="submenu">
+                                    <li><a href="22-main-factors.html">Основные показатели бюджета</a>
+                                    </li>
+                                    <li><a href="23-cash-planning.html">Кассовое планирование</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Управление доходами</a>
+                                <ul class="submenu">
+                                    <li><a href="24-structure-of-incomes.html">Структура доходов и исполнение доходов</a>
+                                    </li>
+                                    <li><a href="25-dynamics-of-incomes.html">Динамика доходов</a></li>
+                                    <li><a href="26-tax-revenue-management.html">Управление налоговыми доходами</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Управление расходами</a>
+                                <ul class="submenu">
+                                    <li><a href="27-government-programs.html">Управление государственными программами</a>
+                                    </li>
+                                    <li><a>Приоритетные расходы бюджета</a>
+                                        <ul class="submenu">
+                                            <li><a href="28-priority-costs.html">Чемпионат мира по футболу 2018</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="29-operative-management.html">Оперативное управление</a></li>
+                                    <li><a href="30-fund-management.html">Управление резервным фондом</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="31-control-activities.html">Контрольные мероприятия</a></li>
+                            <li><a href="32-monitoring.html">Мониторинг изменения федерального законодательства</a></li>
+                        </ul>
+                    </nav>
+                    <div class="profile flex flex-vertical">
+                       <ul class="topmenu">
+                           <li class="user-profile"><a>Иванов Иван Иванович</a>
+                                <ul class="submenu">
+                                    <li><a href="">Настройки профиля</a>
+                                    </li>
+                                    <li><a href="index.html">Выход</a></li>
+                                </ul>
+                            </li>
+                       </ul>
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+            <link rel="stylesheet" href="/style/components/main.css"> <!-- стили главной страницы -->
+            
+            <div class="container">
+                <div class="shadow-block marg-t">
+                    <div class="grey-block big-marg-b">
+                        <p>Уважаемые коллеги! Приветствуем вас на портале "Бюджет Волгоградской области"</p>
+                    </div>
+                    <div class="flex">
+                        <div class="first-item marg-r">
+                            <h4>Финансовый паспорт</h4>
+                            <p class="grey-text f14">Ежемесячные данные по исполнению бюджета Волгоградской области</p>
+                        </div>
+                        <div class="main-page-list-bgr">
+                            <h4 class="marg-b" onclick="showSubmenu('#finance_passport');">Финансовый паспорт</h4>
+                            <ul class="main-page-list" id="finance_passport">
+                                <li><a href="22-main-factors.html">Основные показатели бюджета</a>
+                                <p class="grey-text">информация о доходах и расходах бюджета (план/факт, сравнение с прошлым периодом) в разрезе отдельных видов доходов и направлений расходов</p></li>
+                                <li><a href="23-cash-planning.html">Кассовое планирование</a>
+                                <p class="grey-text">информация о помесячной и (или) поквартальной динамике планируемых и фактических доходов и расходов бюджета</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="first-item marg-r">
+                            <h4>Управление доходами</h4>
+                            <p class="grey-text f14">Структура доходов бюджета Волгоградской области по основным видам доходов</p>
+                        </div>
+                        <div class="main-page-list-bgr">
+                            <h4 class="marg-b" onclick="showSubmenu('#incomes');">Управление доходами</h4>
+                            <ul class="main-page-list" id="incomes">
+                                <li><a href="24-structure-of-incomes.html">Структура доходов и исполнение по доходам</a>
+                                <p class="grey-text">информация о доходах бюджета</p></li>
+                                <li><a href="25-dynamics-of-incomes.html">Динамика доходов</a>
+                                <p class="grey-text">помесячная динамика доходов</p></li>
+                                <li><a href="26-tax-revenue-management.html">Управление налоговыми доходами</a>
+                                <p class="grey-text">информация об уровне собираемости налогов и сборов; о динамике задолженности по налогам и сборам, о динамике задолженности по отдельным налогам и сборам; о динамике недоимки по налогам и сборам</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="first-item marg-r">
+                            <h4>Управление расходами</h4>
+                            <p class="grey-text f14">Структура расходов бюджета Волгоградской области</p>
+                        </div>
+                        <div class="main-page-list-bgr">
+                            <h4 class="marg-b" onclick="showSubmenu('#costs');">Управление расходами</h4>
+                            <ul class="main-page-list" id="costs">
+                                <li><a href="27-government-programs.html">Управление государственными программами</a>
+                                <p class="grey-text">перечень государственных программ, подпрограмм, основных мероприятий. Расходы бюджета на реализацию программы на очередной финансовый год и плановый период, а также за два предыдущих года в разрезе: подпрограмм и основных мероприятий (направлений расходов); источников (федеральный и областной бюджет); ГРБС.</p></li>
+                                <li><a href="28-priority-costs.html">Приоритетные расходы бюджета</a>
+                                <p class="grey-text">информация о мониторинге подготовки к чемпионату мира по футболу 2018 г.</p></li>
+                                <li><a href="29-operative-management.html">Оперативное управление расходами бюджета</a>
+                                <p class="grey-text">информация о расходах в разрезе ведомств, видов и направлений</p></li>
+                                <li><a href="30-fund-management.html">Управление резервным фондом</a>
+                                <p class="grey-text">целями управления средствами резервного фонда являются обеспечение сохранности средств Фонда и стабильного уровня доходов от его размещения в долгосрочной перспективе</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="first-item marg-r">
+                            <h4>Контрольные мероприятия</h4>
+                        </div>
+                        <div class="main-page-list-bgr-1">
+                            <h4 class="small-marg-b"><a href="31-control-activities.html">Контрольные мероприятия</a></h4>
+                            <p class="grey-text">План и ежегодный отчет о проведении комитетом финансов контрольных мероприятий, проводимых в рамках внутреннего государственного финансового контроля и контроля за соблюдением законодательства в сфере закупок для государственных нужд</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="first-item marg-r">
+                            <h4>Мониторинг изменений федерального законодательства</h4>
+                        </div>
+                        <div class="main-page-list-bgr-1">
+                            <h4 class="small-marg-b"><a href="32-monitoring.html">Мониторинг изменений федерального законодательства</a></h4>
+                            <p class="grey-text">Мониторинг федерального законодательства</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer big-marg-t">
+            <div class="container">
+                <p>&copy; Комитет финансов Волгоградской области, 2017</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    function showSubmenu(blockId) {
+        if ($(blockId).css('display') == 'none') 
+        { 
+            $(blockId).animate({height: 'show'}, 250); 
+        } 
+        else 
+        {     
+            $(blockId).animate({height: 'hide'}, 250); 
+        }
+    }
+    </script>
+    
+    
+</body>
+
+</html>
