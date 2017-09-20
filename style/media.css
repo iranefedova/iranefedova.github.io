@@ -1,0 +1,81 @@
+@media screen and (max-width: 1450px) {
+    ul.main-menu li {
+        background-size: 30px 30px, cover;
+        padding-left: 55px;
+    }
+
+    .pz {
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .big-marg-b {
+        margin-bottom: 20px;
+    }
+
+    .small-marg-t-adapt {
+        margin-top: 0;
+    }
+
+    .small-marg-t-adapt-rev {
+        margin-top: 10px;
+    }
+
+    .flex-2-col {
+        flex-basis: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .flex-3-col {
+        flex-basis: 50% !important;
+    }
+    
+    .flex-3-col-links {
+        flex-basis: 44% !important;
+    }
+    
+    .shadow-block-small:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    
+    .shadow-block-small:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    
+    .flex-4-col {
+        flex-basis: 33% !important;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    
+     nav .topmenu > li {
+        max-width: 100px !important;
+    }
+    
+    nav .topmenu > li:last-child {
+        max-width: 230px !important;
+    }
+    
+    .diagram > div p {
+        font-size: 12px !important;
+    }
+    
+}
+
+@media screen and (max-width: 1030px) {
+    nav .topmenu > li {
+        max-width: 85px !important;
+    }
+    
+    nav .topmenu > li:last-child {
+        max-width: 150px !important;
+    }
+    
+    .flex-adapt-wrap {
+        flex-wrap: wrap;
+    }
+    
+}
+

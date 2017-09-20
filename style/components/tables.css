@@ -1,0 +1,121 @@
+.incomes-first {
+    background-color: rgb(252, 207, 155);
+}
+
+.incomes-second {
+    background-color: rgb(253, 231, 206);
+}
+
+.costs-first {
+    background-color: rgb(184, 216, 238);
+}
+
+.costs-second {
+    background-color: rgb(213, 231, 242);
+}
+
+.costs-third {
+    background-color: rgb(241, 247, 251);
+}
+
+.proficit-first {
+    background-color: rgb(230, 230, 230);
+}
+
+.itog-sell {
+    background-color: rgba(120, 120, 120, .17);
+}
+
+.sources-first {
+    background-color: rgb(224, 217, 238);
+}
+
+.rest-first {
+    background-color: rgb(198, 238, 236);
+}
+
+.main-line {
+    background-color: rgb(183, 226, 255);
+}
+
+.main-line td {
+    border: none;
+}
+
+.main-line td:first-child {
+    box-shadow: none !important;
+}
+
+.second, .third, .fourth {
+    display: none;
+}
+
+.more_info, .less_info {
+    background-color: #ededed;
+}
+
+.more_info p, .less_info p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.more_info p:hover, .less_info p:hover {
+    text-decoration: none;
+}
+
+td h6 {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.table tr td:first-child p {
+    overflow: hidden;
+}
+
+.accordion-table tr td:first-child {
+    width: 400px;
+}
+
+.subrow-1 {
+    padding-left: 30px !important;
+}
+
+.subrow-2 {
+    padding-left: 70px !important;
+}
+
+.subrow-3 {
+    padding-left: 90px !important;
+}
+
+.table-without-head {
+    border-top: 1px solid #a8b3c4;
+}
+
+.empty-td {
+    border-bottom: 1px solid #a8b3c4;
+    border-left: none !important;
+    box-shadow: none !important;
+    z-index: 0;
+    background-color: transparent !important;
+}
+
+tr.totals td {
+    font-family: 'Proxima Nova Bold';
+}
+
+.table__passport td {
+    white-space: normal;
+}
+
+.table__passport > tbody:first-child > tr:nth-child(2n) {
+    background-color: rgb(244, 245, 246); 
+}
+
+.table__passport > tbody:last-child > tr:nth-child(2n+1) {
+    background-color: rgb(244, 245, 246); 
+}
+
+.table__passport > tbody:last-child > tr:nth-child(2n) {
+    background-color: rgb(255, 255, 255); 
+}
